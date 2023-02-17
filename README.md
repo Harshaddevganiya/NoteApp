@@ -2,9 +2,7 @@
 
 Project-> Gradle Scripts-> build.gradle file
  
- Dependencies { -----
- 
-  -----------------------------------------------------------------
+ Dependencies {
  
   // Room components
     implementation "androidx.room:room-ktx:$rootProject.roomVersion"
@@ -27,7 +25,5 @@ Project-> Gradle Scripts-> build.gradle file
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     androidTestImplementation "androidx.test.ext:junit:1.1.4"
-    
-    ----------------------------------------------------------------------------
-    
+     
     }
