@@ -2,11 +2,15 @@
 
 Project-> Gradle Scripts-> build.gradle file
  
+
+ 
  Dependencies {
  
+
   // Room components
     implementation "androidx.room:room-ktx:$rootProject.roomVersion"
     kapt "androidx.room:room-compiler:$rootProject.roomVersion"
+    
     androidTestImplementation "androidx.room:room-testing:$rootProject.roomVersion"
 
     // UI
